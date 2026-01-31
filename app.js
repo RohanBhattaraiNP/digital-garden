@@ -29,7 +29,7 @@ async function init() {
 // Load notes
 async function loadNotes() {
     try {
-        const response = await fetch('notes/index.json');
+        const response = await fetch('/digital-garden/notes/index.json');
         const fileList = await response.json();
 
         const notePromises = fileList.map(async filename => {

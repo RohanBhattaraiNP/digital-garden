@@ -1,0 +1,36 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f0f0f0"/>
+  
+  <!-- Title -->
+  <text x="200" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">
+    Digital Garden SVG Demo
+  </text>
+  
+  <!-- Circles -->
+  <circle cx="100" cy="150" r="40" fill="#4a90e2" opacity="0.8"/>
+  <circle cx="200" cy="150" r="40" fill="#e74c3c" opacity="0.8"/>
+  <circle cx="300" cy="150" r="40" fill="#2ecc71" opacity="0.8"/>
+  
+  <!-- Lines -->
+  <line x1="100" y1="150" x2="200" y2="150" stroke="#333" stroke-width="2"/>
+  <line x1="200" y1="150" x2="300" y2="150" stroke="#333" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="100" y="220" text-anchor="middle" font-size="16" fill="#333">Node 1</text>
+  <text x="200" y="220" text-anchor="middle" font-size="16" fill="#333">Node 2</text>
+  <text x="300" y="220" text-anchor="middle" font-size="16" fill="#333">Node 3</text>
+  
+  <!-- Path example -->
+  <path d="M 50 250 Q 200 200 350 250" stroke="#9b59b6" stroke-width="3" fill="none"/>
+  
+  <!-- Rectangle with gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2ecc71;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="150" y="260" width="100" height="20" fill="url(#grad1)" rx="5"/>
+</svg>
+

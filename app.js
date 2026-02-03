@@ -34,8 +34,11 @@ async function init() {
 // Load notes
 async function loadNotes() {
     try {
+        console.log('Loading notes with BASE_PATH:', BASE_PATH);
+        console.log('Fetching from:', `${BASE_PATH}notes/index.json`);
         const response = await fetch(`${BASE_PATH}notes/index.json`);
         const fileList = await response.json();
+        console.log('Loaded files:', fileList);
         
         const notePromises = fileList.map(async filename => {
             const res = await fetch(`${BASE_PATH}notes/${filename}`);
@@ -45,8 +48,10 @@ async function loadNotes() {
 
         notes = await Promise.all(notePromises);
         notes.sort((a, b) => new Date(b.date) - new Date(a.date));
+        console.log('Successfully loaded', notes.length, 'notes');
     } catch (error) {
         console.error('Error loading notes:', error);
+        console.error('Error details:', error.message);
         notes = [];
     }
 }

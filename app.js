@@ -1,3 +1,8 @@
+// Detect if running on GitHub Pages or locally
+const BASE_PATH = window.location.hostname.includes('github.io') 
+    ? '/digital-garden/' 
+    : '/';
+
 // State
 let notes = [];
 let currentView = 'home';
@@ -29,11 +34,11 @@ async function init() {
 // Load notes
 async function loadNotes() {
     try {
-        const response = await fetch('/digital-garden/notes/index.json');
+        const response = await fetch(`${BASE_PATH}notes/index.json`);
         const fileList = await response.json();
-
+        
         const notePromises = fileList.map(async filename => {
-            const res = await fetch(`notes/${filename}`);
+            const res = await fetch(`${BASE_PATH}notes/${filename}`);
             const content = await res.text();
             return parseNote(content, filename);
         });

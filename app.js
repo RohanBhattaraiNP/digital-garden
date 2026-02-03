@@ -61,20 +61,30 @@ function parseNote(content, filename) {
     const lines = content.split('\n');
     let frontmatter = {};
     let body = content;
-
+    
+    console.log('Parsing:', filename, 'First line:', lines[0]);
+    
     if (lines[0].trim() === '---') {
         const endIndex = lines.findIndex((line, i) => i > 0 && line.trim() === '---');
+        console.log('Frontmatter end index:', endIndex);
         if (endIndex > 0) {
+            const yamlContent = lines.slice(1, endIndex).join('\n');
+            console.log('YAML content:', yamlContent);
             try {
-                frontmatter = jsyaml.load(lines.slice(1, endIndex).join('\n'));
+                if (typeof jsyaml === 'undefined') {
+                    console.error('jsyaml is not loaded!');
+                } else {
+                    frontmatter = jsyaml.load(yamlContent);
+                    console.log('Parsed frontmatter:', frontmatter);
+                }
             } catch (e) {
-                console.error('Error parsing frontmatter:', e);
+                console.error('Error parsing frontmatter for', filename, ':', e);
             }
             body = lines.slice(endIndex + 1).join('\n');
         }
     }
-
-    return {
+    
+    const note = {
         id: filename.replace('.md', ''),
         filename,
         title: frontmatter.title || 'Untitled',
@@ -83,6 +93,9 @@ function parseNote(content, filename) {
         tags: frontmatter.tags || [],
         body: body.trim()
     };
+    
+    console.log('Final note:', note.id, 'Title:', note.title);
+    return note;
 }
 
 // Build graph data from notes

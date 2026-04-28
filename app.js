@@ -71,10 +71,13 @@ function parseNote(content, filename) {
             const yamlContent = lines.slice(1, endIndex).join('\n');
             console.log('YAML content:', yamlContent);
             try {
-                if (typeof jsyaml === 'undefined') {
-                    console.error('jsyaml is not loaded!');
+                // js-yaml can be accessed as jsyaml or window.jsyaml
+                const yaml = typeof jsyaml !== 'undefined' ? jsyaml : (typeof window.jsyaml !== 'undefined' ? window.jsyaml : null);
+                if (!yaml) {
+                    console.error('jsyaml is not loaded! Available:', Object.keys(window).filter(k => k.toLowerCase().includes('yaml')));
+                    console.error('Trying window.jsyaml:', window.jsyaml);
                 } else {
-                    frontmatter = jsyaml.load(yamlContent);
+                    frontmatter = yaml.load(yamlContent);
                     console.log('Parsed frontmatter:', frontmatter);
                 }
             } catch (e) {

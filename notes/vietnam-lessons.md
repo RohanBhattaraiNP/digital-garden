@@ -1,44 +1,54 @@
 ---
-title: What I Learned in Vietnam
-date: 2026-04-27
+title: Vietnam Lessons
+date: 2026-04-18
 category: Travel
-tags: [vietnam, travel, lessons, culture]
+tags: [travel, vietnam]
 ---
 
-# What I Learned in Vietnam
+# [Country/Place] Lessons
 
-Vietnam hit different. Here's what stuck with me.
+[Opening - What made this place stick with you? What did you learn that you didn't expect?]
 
-## Coffee Culture is an Art Form
+## [Lesson/Observation 1 - Give it a title]
 
-Vietnamese coffee isn't just caffeine delivery - it's a ritual. The slow drip, the sweetened condensed milk, sitting on tiny plastic stools watching motorbikes blur past.
+[Write about this lesson or observation. What happened? What did you notice? Why does it matter?]
 
-*Cà phê sữa đá* became my daily meditation.
+**Takeaway:** [Summarize the key insight in one sentence]
 
-## Controlled Chaos Works
+---
 
-Crossing the street in Hanoi: Don't stop. Don't run. Just walk steadily and trust the motorbikes to flow around you like water. 
+## [Lesson/Observation 2]
 
-It's a perfect metaphor for life there. Organized chaos that somehow just... works.
+[Your experience and what you learned from it]
 
-## History is Everywhere
+**Takeaway:** [Key insight]
 
-The Cu Chi tunnels, the War Remnants Museum, even random conversations with locals. The war ended in 1975 but its presence is palpable.
+---
 
-What struck me: No bitterness. Just moving forward.
+## [Lesson/Observation 3]
 
-## Street Food > Restaurant Food
+[Continue adding lessons, observations, or cultural insights]
 
-Every single time. The best bánh mì I had was from a street vendor in Hoi An who's been making them for 40 years. $1.50. Life-changing.
+![PLACEHOLDER_IMAGE: relevant photo if you have one]
 
-![Street food in Hanoi](PLACEHOLDER_IMAGE)
+---
 
-## Lessons
+## Things That Surprised Me
 
-- **Simplicity scales.** You don't need complexity to build something that works.
-- **Resilience is cultural.** A country that's been through what Vietnam has and still radiates optimism? That's powerful.
-- **Slow down.** The coffee drip is slow for a reason.
+- [Surprise 1]
+- [Surprise 2]
+- [Surprise 3]
 
-Vietnam taught me that efficiency isn't always speed. Sometimes it's knowing when to sit on a plastic stool and watch the world go by.
+---
 
-Related: [[travel-philosophy]] [[sri-lanka]] [[why-flighty]]
+## What This Changed
+
+[How did this trip or these lessons change your perspective? What do you think about differently now? What habits or beliefs shifted?]
+
+---
+
+## Final Thought
+
+[Closing reflection - one paragraph about the overall impact of this experience]
+
+*[Optional: Add when you visited, e.g., "Visited in March 2024"]*

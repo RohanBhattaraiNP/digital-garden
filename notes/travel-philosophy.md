@@ -1,70 +1,54 @@
 ---
 title: Travel Philosophy
-date: 2026-04-25
+date: 2026-04-27
 category: Travel
-tags: [travel, philosophy, perspective]
+tags: [travel, philosophy]
 ---
 
-# My Travel Philosophy
+# Travel Philosophy
 
-Why I travel and what I've learned from going places.
+[Opening paragraph - Why do you travel? What does travel mean to you? How has your approach evolved?]
 
-## Motion as Default State
+## [Principle/Belief 1 - Give it a title, e.g., "Slow Travel > Speed", "Always Talk to Locals"]
 
-Staying in one place feels unnatural now. Not because home is bad - because the world is too interesting not to explore.
+[Explain this principle. Why do you follow it? What experiences taught you this? How does it affect your travel choices?]
 
-I'd rather be uncomfortable in a new place than comfortable in the same routine.
+**Why it matters:** [The benefit or insight this principle gives you]
 
-## The 2-Week Rule
+---
 
-You don't know a place in 2 days. You barely know it in 2 weeks. But 2 weeks is enough to:
-- Get past tourist mode
-- Find the local spots
-- Have real conversations
-- Build some rhythm
+## [Principle/Belief 2]
 
-Less than a week? You're just collecting photos.
+[Your thoughts on another aspect of your travel philosophy]
 
-## Travel Slow, See Less
+**Why it matters:** [The impact or value]
 
-I'd rather spend a month in one country than a week in four.
+---
 
-Depth > Breadth.
+## [Principle/Belief 3]
 
-## No Itineraries
+[Continue adding principles, rules, or beliefs that guide how you travel]
 
-Plans are where spontaneity goes to die. I book the flight and first night's accommodation. Everything else? Figure it out there.
+---
 
-Best experiences come from:
-- Random conversations
-- Getting lost
-- Following local recommendations
-- Saying yes to unexpected invitations
+## What I've Learned
 
-None of these happen with a rigid itinerary.
+- [Learning 1 - Something travel has taught you]
+- [Learning 2]
+- [Learning 3]
 
-## Talk to Locals
+---
 
-Tourists see what's Instagrammable. Locals show you what's real.
+## What I'm Still Figuring Out
 
-The best meal, the hidden viewpoint, the festival happening next week - you'll never find these on TripAdvisor.
+[Any questions, contradictions, or evolving thoughts about travel. What are you still learning? Where is your thinking changing?]
 
-## Document, Don't Perform
+---
 
-Photos for memory, not likes. I barely post while traveling. The experience is for me, not an audience.
+## Final Thought
 
-Social media travel is performative garbage. Real travel is too busy being present to be posting.
+[One paragraph summary of your overall travel philosophy. What's the core idea that drives how you explore the world?]
 
-## Comfort is a Trap
+---
 
-The best stories come from:
-- Taking the wrong bus
-- Food poisoning in Cambodia
-- Getting caught in monsoon rain
-- Communication fails
-
-Comfort is overrated. Memorable is what matters.
-
-## Related Thoughts
-
-See: [[vietnam-lessons]] [[sri-lanka]] [[why-flighty]]
+Related: [Add links to specific trip notes if relevant, e.g., [[vietnam-lessons]] [[sri-lanka]]]
